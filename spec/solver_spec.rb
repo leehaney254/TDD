@@ -33,5 +33,9 @@ describe Solver do
     it 'should return fizzbuzz for number divisible by 3 and 5' do
       expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
     end
+
+    it 'should return the given number as a string in any other case' do
+      expect(@solver.fizzbuzz(16)).to eq '16'
+    end
   end
 end
