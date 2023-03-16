@@ -16,7 +16,9 @@ class Solver
   end
 
   def fizzbuzz(number)
-    
+    if number % 3 == 0
+      
+    end
   end
 end
 Test to return buzz for numbers not divisible by 3
