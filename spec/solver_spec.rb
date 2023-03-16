@@ -20,6 +20,10 @@ describe Solver do
       expect{ @solver.factorial(-2) }.to raise_error(StandardError, 'Number cannot be negative')
     end
 
+    it 'should reverse words' do
+      expect(@solver.reverse('hello')).to eq 'olleh' 
+    end
+
   end
 
 
