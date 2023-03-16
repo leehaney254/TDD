@@ -29,5 +29,9 @@ describe Solver do
     it 'should return buzz for number divisible by 5' do
       expect(@solver.fizzbuzz(10)).to eq 'buzz'
     end
+
+    it 'should return fizzbuzz for number divisible by 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
+    end
   end
 end
