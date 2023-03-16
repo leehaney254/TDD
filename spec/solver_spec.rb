@@ -7,7 +7,11 @@ describe Solver do
   end
 
   context 'When working with solver' do
-    expect (@solver.factorial(5)).to eq 20
+
+    it 'Should return the factorial' do
+      expect(@solver.factorial(5)).to eq 120
+    end
+
   end
 
 
