@@ -1,14 +1,11 @@
 class Solver
-
   def factorial(number)
     result = 1
-    return result if number == 0 || number == 1
+    return result if [0, 1].include?(number)
 
-    if number < 0
-      raise StandardError, 'Number cannot be negative'
-    end
+    raise StandardError, 'Number cannot be negative' if number.negative?
 
-    for i in (number).downto(1) do
+    number.downto(1).each do |i|
       result *= i
     end
     result
@@ -17,6 +14,4 @@ class Solver
   def reverse(word)
     word.reverse!
   end
-
 end
-

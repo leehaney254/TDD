@@ -1,13 +1,11 @@
 require 'spec_helper'
 
 describe Solver do
-
   before :each do
     @solver = Solver.new
   end
 
   context 'When working with solver' do
-
     it 'Should return the factorial' do
       expect(@solver.factorial(5)).to eq 120
     end
@@ -17,14 +15,11 @@ describe Solver do
     end
 
     it 'should raise an exception when number is negative' do
-      expect{ @solver.factorial(-2) }.to raise_error(StandardError, 'Number cannot be negative')
+      expect { @solver.factorial(-2) }.to raise_error(StandardError, 'Number cannot be negative')
     end
 
     it 'should reverse words' do
-      expect(@solver.reverse('hello')).to eq 'olleh' 
+      expect(@solver.reverse('hello')).to eq 'olleh'
     end
-
   end
-
-
 end
