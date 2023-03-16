@@ -21,5 +21,9 @@ describe Solver do
     it 'should reverse words' do
       expect(@solver.reverse('hello')).to eq 'olleh'
     end
+
+    it 'should return fizz for number divisible by 3' do
+      expect(@solver.fizzbuzz(9)).to eq 'fizz'
+    end
   end
 end
