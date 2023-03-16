@@ -14,4 +14,9 @@ class Solver
   def reverse(word)
     word.reverse!
   end
+
+  def fizzbuzz(number)
+    
+  end
 end
+Test to return buzz for numbers not divisible by 3
