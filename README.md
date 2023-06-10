@@ -21,7 +21,7 @@
 
 # 📖 [Test Driven Development] <a name="about-project"></a>
 
-**[Test Driven Development]** - here we implemented a class with some methods, using test-driven development (TDD). We wrote the tests first and then the code.
+**[Test Driven Development]** - here we implemented a class with some methods, using test-driven development (TDD). We wrote the tests first and then the code. This is also considered a good way to document work.
 
 ## 🛠 Built With <a name="built-with"></a>
 
